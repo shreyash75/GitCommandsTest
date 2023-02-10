@@ -13,3 +13,7 @@ Github commands:
 8. To keep some files back-stage and not to interrupt in the working directory (Stash IT): git stash: After (git add .)
 9. To bring the stash files back to the working directory: git stash pop
 10. To clear all the files from the stash and delete them: git stash clear
+
+Name convention:
+The project residing our own account that git is called as: ORIGIN
+The project which is forked from different account that git is called as: UPSTREAM
