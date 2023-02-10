@@ -14,6 +14,10 @@ Github commands:
 9. To bring the stash files back to the working directory: git stash pop
 10. To clear all the files from the stash and delete them: git stash clear
 
+To Create new Branch:
+1. First create new branch: git branch name
+2. Second point your head to that branch: git checkout name
+
 Name convention:
 The project residing our own account that git is called as: ORIGIN
 The project which is forked from different account that git is called as: UPSTREAM
@@ -21,3 +25,12 @@ The project which is forked from different account that git is called as: UPSTRE
 Pull Request:
 For different branches there are different pull requests i.e. One branch corresponds to one pull request
 ** IT IS RECOMMENDED THAT IF WORKING ON DIFFERENT FEATURES,	CREATE DIFFERENT BRANCHES RESPECTIVELY **
+
+Fetch Command:
+1. If there any changes made in the MAIN branch of the project we can fetch the changes using: git fetch --all --prune
+2. And then we change the head pointing at the LATEST MAIN BRANCH CHANGES: git reset --hard upstream/main
+
+OR
+
+Pull Command:
+1. To get the changes done in the MAIN Branch: git pull upstream/origin main
