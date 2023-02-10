@@ -17,3 +17,7 @@ Github commands:
 Name convention:
 The project residing our own account that git is called as: ORIGIN
 The project which is forked from different account that git is called as: UPSTREAM
+
+Pull Request:
+For different branches there are different pull requests i.e. One branch corresponds to one pull request
+** IT IS RECOMMENDED THAT IF WORKING ON DIFFERENT FEATURES,	CREATE DIFFERENT BRANCHES RESPECTIVELY **
