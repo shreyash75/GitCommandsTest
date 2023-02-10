@@ -1,0 +1,7 @@
+Github commands:
+
+1. Add files into staging: git add .
+2. Take snapshot of the work done: git commit -m "Some message"
+3. Get to know about the status of the project: git status
+
+4. To remove any file on the stage: git restore --staged filename
